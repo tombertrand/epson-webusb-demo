@@ -1,5 +1,9 @@
 # Epson node webusb/libusb troubleshoot demo
 
+Tested on NodeJS `v12.16.2`
+
+Please run `yarn && yarn start` to install the dependencies and run the code having a TM-m30 USB connected
+
 | Test                                                          | Result                                                                                                                                                                                                                        |
 | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Epson TM-m30, Windows, without drivers (unable print)         | ![image](https://user-images.githubusercontent.com/19352322/94170870-95b0e300-fe5e-11ea-8f35-cf2e67ff5231.png) ![image](https://user-images.githubusercontent.com/19352322/94171075-cc86f900-fe5e-11ea-9a9e-4d2ad3fd33e0.png) |
