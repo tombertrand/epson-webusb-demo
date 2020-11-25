@@ -1,8 +1,10 @@
 {
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "generate-buffer": "node generate-buffer.js"
   },
   "dependencies": {
+    "pngjs": "^5.0.0",
     "webusb": "^2.1.0"
   }
 }
