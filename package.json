@@ -1,10 +1,11 @@
 {
   "scripts": {
     "start": "node index.js",
-    "generate-buffer": "node generate-buffer.js"
+    "generate-buffer": "node generate-buffer.js",
+    "string-to-buffer": "node string-to-buffer.js"
   },
   "dependencies": {
     "pngjs": "^5.0.0",
-    "webusb": "^2.1.0"
+    "webusb": "^2.2.0"
   }
 }
